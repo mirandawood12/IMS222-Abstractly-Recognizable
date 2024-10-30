@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Here</title>
+    <style>
+        .border-container {
+            border: 0.5in solid #6d9979; 
+            margin: 1in; 
+            padding: 20px; 
+        }
+        h4, ul {
+            text-align: left; 
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="examples.html">Client Examples</a></li>
+          <li><a href="contactus.html">Careers & Contact Us</a></li>
+          <li><a href="materialize.html">Materialize</a></li>
+        </ul>
+      </nav>
+    <div class="border-container">
+      <h1>Abstractly Recognizable</h1>
+        <h2>Work Environment </h2>
+        <p>Here at Abstractly Recognizable, our business is a hive of creativity, buzzing with laughter and the clinking of coffee mugs. The employees, a colorful bunch of artists and tech enthusiasts, bring a <strong>unique energy</strong> to the office. From impromptu dance-offs at their desks to whiteboard brainstorming sessions that often veer into unexpected territories, their playful spirit is infectious. Their shared passion for design is evident in their work, but it's their <u>camaraderie and sense of fun that truly make the firm a special place to be.</u></p>
+        <br>
+        <p>Need a fresh perspective on your brand or project? Let's connect! At Abstractly Recognizable, we're passionate about crafting visually stunning designs that resonate with your audience. Our team of talented designers is ready to collaborate with you to bring your ideas to life. Drop us a line using the email information below or give us a call to discuss your project. <em>We look forward to hearing from you!</em></p>
+        <h4>Contact Information</h4>
+        <ul>
+            <li>Email (Careers): abstractlyrecognizable.careers@gmail.com</li>
+            <li>Email (Hire Us): abstractlyrecognizable.hireus@gmail.com</li>
+            <li>Phone: 393-863-9363</li>
+            <li>Instagram: @abstractlyrecognizable
+            <li>Headquarters: 1505 Chattahoochee Ave NW, Atlanta, GA 30318</li>
+            </li>
+        </ul>
+        <h4>Enter your brand's URL link for us to analyze your website!</h4>
+        <input id="userInput"> <br><br>
+        <button onclick="myFunction()">Submit</button>
+        <p id="message"></p>
+        <script>function myFunction() {
+        let userInput = document.querySelector ("#userInput");
+        let message = document.querySelector ("#message");
+        message.innerHTML = "We will get back to you shortly!" + userInput.value;
+        }
+        </script>
+    </div>
+  <footer>
+  <p>&copy; 2024 Abstractly Recognizable</p>
+    <h4 style="text-align: center;">Design That Delivers</h4>
+</footer>
+</body>
+</html>
