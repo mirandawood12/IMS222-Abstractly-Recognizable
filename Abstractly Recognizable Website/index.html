@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        .border-container {
+            border: 0.5in solid #6d9979; 
+            margin: 1in; 
+            padding: 20px; 
+        }
+        h4, ul {
+            text-align: left; 
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="examples.html">Client Examples</a></li>
+          <li><a href="contactus.html">Careers & Contact Us</a></li>
+          <li><a href="materialize.html">Materialize</a></li>
+        </ul>
+      </nav>
+    <div class="border-container">
+      <h1>Abstractly Recognizable</h1>
+        <h2>About Our Brand</h2>
+        <p>At Abstractly Recognizable we take your company's values and image to create <em>unique, creative, recognizable,</em> and <em>reputational</em> brand graphics. We have worked with multiple clients in the areas of <strong>Atlanta, Houston, Boston,</strong> and <strong>San Diego.</strong> Our employees aim to not only provide customer satisfaction, but truly get to know your company for what it stands for and make a <u>personal, meaningful connection</u> with your business. We provide numerous types of graphics ranging from <em>logo illustrations</em> to <em>marketing campaigns.</em> Abstractly Recognizable is here to help guide your business to the <strong>top</strong> with our <strong>advanced resources</strong> and <strong>technological tools.</strong></p>
+        
+        <h4>A Full List of Our Services</h4>
+        <ul>
+            <li>Logo Illustrations</li>
+            <li>Package Design</li>
+            <li>Marketing Campaigns</li>
+            <li>Website Design & Management</li>
+            <li>Provide Creative Insight on Projects</li>
+        </ul>
+      
+      <p>Visit <a href="https://www.covergirl.com/" target="_blank">Covergirl</a> for a better look into some of our clientele work!</p>
+      <table style="text-align: center;">
+  <tr>
+    <th>Year</th>
+    <th>Clients</th>
+  </tr>
+  <tr>
+    <td>2020</td>
+    <td>27</td>
+  </tr>
+  <tr>
+    <td>2021</td>
+    <td>48</td>
+  </tr>
+        <tr>
+    <td>2022</td>
+    <td>109</td>
+  </tr>
+  <tr>
+    <td>2023</td>
+    <td>234</td>
+  </tr>
+</table>
+      <blockquote>
+  Growing exponentially every year to not only better our brand, but to better our services
+</blockquote>
+<h4>Enter your brand's URL link for us to analyze your website!</h4>
+        <input id="userInput"> <br><br>
+        <button onclick="myFunction()">Submit</button>
+        <p id="message"></p>
+        <script>function myFunction() {
+        let userInput = document.querySelector ("#userInput");
+        let message = document.querySelector ("#message");
+        message.innerHTML = "We will get back to you shortly!" + userInput.value;
+        }
+        </script>
+    </div>
+  <footer>
+  <p>&copy; 2024 Abstractly Recognizable</p>
+    <h4 style="text-align: center;">Design That Delivers</h4>
+</footer>
+</body>
+</html>
