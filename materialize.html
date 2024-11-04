@@ -81,9 +81,35 @@
                 </table>
        </div>
    </div>
+   <style>
+    /* Optional: Adjust the carousel image size for a better appearance */
+    .carousel .carousel-item img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+   <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.carousel');
+      var instances = M.Carousel.init(elems, {
+        // Add options here if needed
+        duration: 200, // Speed of the transition (in ms)
+        shift: 0,      // Horizontal shift of each item
+        dist: -100,    // Distance between the items in the carousel
+        padding: 10,   // Padding between non-active items
+        numVisible: 1, // Number of visible items at once
+        indicators: true // Dots below the carousel for each item
+      });
+    });
+  </script>
+   <div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="Images/abstractjungle.PNG"></a>
+    <a class="carousel-item" href="#two!"><img src="Images/abstractsmoky.jpg"></a>
+    <a class="carousel-item" href="#three!"><img src="Images/abstractsea.jpg"></a>
+    <a class="carousel-item" href="#four!"><img src="Images/abstractdino.PNG"></a>
+    <a class="carousel-item" href="#five!"><img src="Images/abstractmechanical.jpg"></a>
+  </div>
    <div class="row">
-
-
        <div class="col s4">
         <img src="Images/abstractdino.PNG" width="200" height="150" class="responsive-img shadow">
            <blockquote>Dino Adventure</blockquote>
@@ -140,5 +166,6 @@
            </div>
        </div>
    </footer>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
