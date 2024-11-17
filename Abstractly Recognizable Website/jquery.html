@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+<script>
+$(document).ready(function(){
+ $("p").click(function(){
+   $(this).hide();
+ });
+});
+</script>
+
+<script>
+   $(document).ready(function(){
+     $("button").click(function(){
+       $("p").toggle();
+     });
+   });
+   </script>
+
+ <script>
+   $(document).ready(function(){
+     $("button").click(function(){
+       $("#p1").css("color", "pink").slideUp(2000).slideDown(2000);
+     });
+   });
+   </script>
+
+</head>
+<meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abstractly Recognizable</title>
+<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+<style>
+    .border-container {
+        border: 0.5in solid #6d9979; 
+        margin: 1in; 
+        padding: 20px; 
+    }
+    h4, ul {
+        text-align: left; 
+    }
+</style>
+</head>
+<body>
+
+
+<header>
+   <h1>Welcome to Abstractly Recognizable</h1>
+  
+   <nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="examples.html">Client Examples</a></li>
+        <li><a href="contactus.html">Careers & Contact Us</a></li>
+        <li><a href="materialize.html">Materialize</a></li>
+        <li><a href="jquery.html">JQuery</a></li>
+        <li><a href="bootstrap.html">Boostrap</a></li>
+      </ul>
+  </nav>
+
+
+</header>
+<body>
+
+<p id="p1">Some JQuery for Design</p>
+       <section style="background-color: #ccc3ee;">
+<p>If you click on me, I will disappear. Web designers use these features to help engage users with the site and increase user interest.</p>
+<p>You can also click on me to make me disappear. With multiple interactions, users interact a multitude of times in one visit, increasing their interest in visiting the site again. </p>
+</section>
+<hr>
+<section style="background-color: #f1a1e8;">
+<button>Toggle between hiding and showing the paragraphs</button>
+
+
+<p>Web design is the art and science of creating visually appealing and user-friendly websites. It involves a combination of creativity, technical skills, and an understanding of user experience (UX) principles. Designers work with a variety of tools and technologies to structure content, choose color palettes, select fonts, and implement interactive elements. </p>
+<p>The ultimate goal of web design is to create websites that are not only visually engaging but also easy to navigate and provide a seamless user experience. By combining technical expertise with creative flair, web designers bring ideas to life on the internet.</p>
+</section>
+<hr>
+<section style="background-color: #79f299;">
+<p id="p1">Enter to Win a Free Website Analysis!</p>
+
+
+<button>Click Me to Enter</button>
+</section>
+</body>
+</html>
+
+
